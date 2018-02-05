@@ -1,0 +1,81 @@
+*{ padding:0; margin:0; font-size:12px;}
+li{ list-style-type:none;}
+img{ border:0;}
+.fl{ float:left;}
+.fr{ float:right;}
+.clear{ clear:both;}
+.blank10{ height:10px; line-height:10px; clear:both; overflow:hidden;}
+.blank15{ height:15px; line-height:15px; clear:both; overflow:hidden;}
+a{ text-decoration:none; color:#303030;}
+a:hover{ text-decoration:underline; color:#1c76b4;}
+.box_top_xin{ width:979px; margin:0 auto; overflow:hidden; padding-top:17px; padding-bottom:20px;}
+.box_top_xin_left{ width:163px;}
+.box_top_xin_left img{ display:block;}
+.box_top_xin_right{ width:816px;}
+.box_top_xin_right_1{ padding-top:6px; overflow:hidden;}
+.box_top_xin_right_1 ul{ float:right; overflow:hidden;}
+.box_top_xin_right_1 ul li{ float:left;}
+.box_top_xin_right_1 ul li a{ white-space:nowrap; display:block; width:72px; text-align:center;}
+.box_top_xin_right_2{ padding-top:15px;}
+.zhuce_content{ width:979px; margin:0 auto;height:575px; background-image:url(images/zhuce_xin_bg.jpg);}
+.zhuce_tijiao{ width:550px; padding-left:27px; padding-top:166px; float:left;}
+.zhuce_tijiao_shang{ width:550px; height:12px; line-height:12px; overflow:hidden; background-image:url(images/zhuce_yonghu_shang.png);}
+.zhuce_tijiao_zhong{ width:550px; background-image:url(images/zhuce_yonghu_zhong.png);}
+.zhuce_tijiao_xia{ width:550px; height:33px; background-image:url(images/zhuce_yonghu_xia.png);}
+.zhuce_tijiao_zhong_cl li{ height:24px; line-height:24px; clear:both; padding:10px 0;}
+.zhuce_tijiao_zhong_cl li span.qianmian_cl{ width:85px; float:left; text-align:right;}
+.zhuce_tijiao_zhong_cl li input{ float:left; height:22px; line-height:22px; border:1px solid #a9a9a9; width:120px; padding:0 5px;}
+.zhuce_tijiao_zhong_cl li span.houmian_cl{ float:left; padding-left:8px; padding-right:8px; color:#999999;}
+.zhuce_tijiao_zhong_cl li.tijiao_cl input{ width:97px; height:31px; background-image:url(images/zhuce_xin_tijiao.jpg); border:0; padding:0; margin-left:100px; cursor:pointer;}
+.zhuce_wenzi{ float:left; width:250px; line-height:24px; padding-left:60px; padding-top:260px;}
+.box_bottom_xin{ height:107px; background-image:url(images/box_bottom_xin_bg.jpg); width:979px; margin:0 auto; text-align:center; line-height:24px; color:#3b3b3b; padding-top:10px;}
+.box_huiyuan_cl{ width:977px; margin:0 auto; overflow:hidden; border:1px solid #007fd8; background-image:url(images/huiyuanxinxi_cl_dian.jpg); background-repeat:repeat-y; background-position:175px 0;}
+.box_huiyuan_cl_left{ width:160px; padding-left:15px; padding-bottom:40px; background-image:url(images/huiyuanxinxi_cl_xiubg.jpg); background-repeat:repeat-x;}
+.box_huiyuan_cl_left_pai{ width:145px;}
+.box_huiyuan_cl_left_pai li{ height:65px; line-height:65px; border-bottom:1px dashed #CCC; font-size:14px; font-weight:bold; padding-left:60px;}
+.box_huiyuan_cl_left_pai li.clgai_cl1{ background-image:url(images/huiyuanxinxi_cl_bg1.jpg); background-repeat:no-repeat; background-position:15px 15px;}
+.box_huiyuan_cl_left_pai li.clgai_cl2{ background-image:url(images/huiyuanxinxi_cl_bg2.jpg); background-repeat:no-repeat; background-position:15px 15px;}
+.box_huiyuan_cl_left_pai li.clgai_cl3{ background-image:url(images/huiyuanxinxi_cl_bg3.jpg); background-repeat:no-repeat; background-position:15px 15px;}
+.box_huiyuan_cl_left_pai li.clgai_cl4{ background-image:url(images/huiyuanxinxi_cl_bg4.jpg); background-repeat:no-repeat; background-position:15px 15px;}
+.box_huiyuan_cl_right{ width:802px;}
+.box_huiyuan_cl_right_shang{ overflow:hidden; width:775px; padding-left:15px;}
+.box_huiyuan_cl_right_shang1{ width:135px; padding-top:17px;}
+.box_huiyuan_cl_right_shang1 img{ padding:2px; border:1px solid #c2c2c2;}
+.box_huiyuan_cl_right_shang2{ width:300px; padding-top:25px; padding-left:15px; line-height:24px;}
+.box_huiyuan_cl_right_shang2 h1{ font-size:14px;}
+.box_huiyuan_cl_right_shang3{ padding-top:17px;}
+.box_huiyuan_cl_right_shang3_news{ border:1px solid #d2d2d2; width:264px;}
+.box_huiyuan_cl_right_shang3_news dt{ height:24px; line-height:24px; font-weight:bold; border-bottom:1px solid #d2d2d2; background-color:#f5f5f5; padding-left:10px; margin-bottom:5px;}
+.box_huiyuan_cl_right_shang3_news dd{ height:24px; line-height:24px; padding-left:10px;}
+.box_huiyuan_cl_right_xia{ overflow:hidden; width:775px; padding-left:15px;}
+.box_huiyuan_cl_right_xia_se{ padding-top:15px; padding-bottom:50px;}
+.box_huiyuan_cl_right_xia_se dt{ border-top:1px solid #2d85c9; height:27px; line-height:27px; background-color:#d5ebfb; font-weight:bold;}
+.box_huiyuan_cl_right_xia_se dt span.jingqu_cltuijian1{ float:left; width:420px; padding-left:30px;}
+.box_huiyuan_cl_right_xia_se dt span.jingqu_cltuijian2{ float:left; width:120px; text-align:center}
+.box_huiyuan_cl_right_xia_se dt span.jingqu_cltuijian3{ float:left; width:205px; text-align:center}
+.box_huiyuan_cl_right_xia_se dd{ height:33px; line-height:33px; border-bottom:1px dashed #CCC;}
+.box_huiyuan_cl_right_xia_se dd span.jingqu_cltuijian4{ float:left; width:420px; padding-left:30px; font-size:14px;}
+.box_huiyuan_cl_right_xia_se dd span.jingqu_cltuijian4 a{ font-size:14px;}
+.box_huiyuan_cl_right_xia_se dd span.jingqu_cltuijian5{ float:left; width:120px; text-align:center; font-size:14px; font-weight:bold; color:#ff0000;}
+.box_huiyuan_cl_right_xia_se dd span.jingqu_cltuijian6{ float:left; width:205px; text-align:center; font-size:14px;}
+.box_huiyuan_cl_right_xia_gaimima{ border-top:1px solid #2d85c9; margin-top:15px; padding-top:30px; padding-left:50px; padding-bottom:30px;}
+.box_huiyuan_cl_right_xia_gaimima li{ height:28px; line-height:28px; clear:both; padding:10px 0;}
+.box_huiyuan_cl_right_xia_gaimima li span.box_huiyuan_cl_right_xia_gaimima1{ width:100px; float:left; text-align:right;}
+.box_huiyuan_cl_right_xia_gaimima li span.box_huiyuan_cl_right_xia_gaimima2{ float:left; color:#999999; padding-left:8px;}
+.box_huiyuan_cl_right_xia_gaimima li input{ float:left; height:26px; line-height:26px; border:1px solid #7f9db9; padding:0 5px; width:180px;}
+.box_huiyuan_cl_right_xia_gaimima li.xiugaimima_cl{ padding-top:30px;}
+.box_huiyuan_cl_right_xia_gaimima li.xiugaimima_cl input{ width:83px; height:23px; background-image:url(images/xiugaimima_queding_cl.jpg); padding:0; border:0; cursor:pointer; margin-left:150px;}
+.cl_xiugai_zf{ padding-left:100px;}
+.cl_xiugai_zf li span{ margin-right:50px;}
+.cl_xiugai_zf li input{ width:300px;}
+.cl_xiugai_zf li.xiugaixingbie_cl input{ width:12px; border:0;}
+.cl_xiugai_zf li.xiugaixingbie_cl h1{ float:left; width:50px; text-align:center; font-weight:normal;}
+.cl_xiugai_zf li.xiugaixingbie_cl h2{ float:left; width:50px; text-align:center; font-weight:normal;}
+.clxiugai_zff{ padding-right:50px;}
+.clxiugai_zff li{ height:auto; padding:0;}
+
+
+
+
+
+
